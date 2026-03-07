@@ -18,11 +18,10 @@ void siapkanData() {
         {4, "Presidents Orders", "Yuli Pritania", "Grasindo", 2017, "Detektif"},
         {5, "Rahasia Tergelap", "Lexie Xu", "Mizan", 2022, "Thriller"}
     };
-
-    printf("Buku Pertama: %s oleh %s\n", daftarBuku[0].judul, daftarBuku[0].penulis);
 }
 
 int main() {
     siapkanData();
     return 0;
+
 }
